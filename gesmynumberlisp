@@ -1,7 +1,6 @@
-(defun *small* 0)
-*small*
-(defun *big* 100)
-*big*
+(defparameter *small* 0)
+(defparameter *big* 100)
+
 
 
 (defun guess-my-number()
@@ -24,7 +23,4 @@ bigger
   (guess-my-number))
 start-over
 
-
-
-
-
+(defun end-lisp())
